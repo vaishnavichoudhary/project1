@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>my website</title>
+</head>
+<body>
+    <h1>sign up page</h1>
+    <form method="post" action="/signup/">
+    <label for="login_field" > Enter User name </label></li><br>
+
+    <input id="login_field" class="form-control input-block" type="text" tabindex="1" name="username">
+    <br>
+
+    <label for="login_field" > Enter your email address </label></li><br>
+
+    <input id="login_field" class="form-control input-block" type="text" tabindex="1" name="email">
+    <br>
+
+    <label for="password" > Password </label>
+    <br>
+    <input id="password" class="form-control form-control input-block" type="password" tabindex="2" name="password">
+    <br>
+    <input type="submit" name="submit" value="sign in" >
+    </form>
+    {{validation}}
+
+</body>
+</html>
